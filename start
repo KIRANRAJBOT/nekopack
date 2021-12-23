@@ -89,7 +89,7 @@ _set_bot () {
     _run_cat_git
     python3 ../setup/updater.py ../requirements.txt requirements.txt
     chmod -R 755 bin
-    echo "    Starting CatUserBot    "
+    echo "    Starting ....    "
     echo "
                         :'######:::::'###::::'########::::
                         '##... ##:::'## ##:::... ##..:::::
@@ -111,7 +111,7 @@ _set_bot () {
     . #######::. ######:: ########: ##:::. ##: ########::. #######::::: ##::::
     :.......::::......:::........::..:::::..::........::::.......::::::..:::::
     "
-    python3 -m userbot
+     bash resources/startup/startup.sh
 }
 
 _set_bot
